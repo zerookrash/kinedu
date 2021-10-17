@@ -1,0 +1,42 @@
+.btnWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  background: #01bf71;
+  border-radius: 50px;
+  border: none;
+  width: 140px;
+}
+
+.btn-secondary {
+  background: #f0f0f0;
+  color: #9d9d9d;
+  border-radius: 50px;
+  border: none;
+  width: 140px;
+}
+
+.btnSmall {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .btnBig {
+    display: none;
+  }
+
+  .btnSmall {
+    display: inline-table;
+    width: 50px;
+    height: 50px;
+  }
+
+  small {
+    font-size: 1rem;
+  }
+}

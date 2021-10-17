@@ -1,0 +1,60 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 10px auto;
+}
+
+small {
+  color: #8f8c8c;
+}
+
+.btn-primary {
+  background: #01bf71;
+  border-radius: 50px;
+  border: none;
+  width: 140px;
+}
+
+.btn-secondary {
+  background: #f0f0f0;
+  color: #9d9d9d;
+  border-radius: 50px;
+  border: none;
+  width: 140px;
+}
+
+.btnSmall,
+.status {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .btnBig {
+    display: none;
+  }
+
+  .btnSmall {
+    display: inline-table;
+    width: 50px;
+    height: 50px;
+  }
+
+  .flex {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .flex2 {
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
